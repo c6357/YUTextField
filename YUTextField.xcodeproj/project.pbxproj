@@ -14,6 +14,7 @@
 		6788F8381AEFC2F300756BA0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6788F8371AEFC2F300756BA0 /* Images.xcassets */; };
 		6788F83B1AEFC2F300756BA0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6788F8391AEFC2F300756BA0 /* LaunchScreen.xib */; };
 		6788F8471AEFC2F300756BA0 /* YUTextFieldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6788F8461AEFC2F300756BA0 /* YUTextFieldTests.m */; };
+		6788F8561AEFC32D00756BA0 /* YUTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 6788F8551AEFC32D00756BA0 /* YUTextField.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		6788F8401AEFC2F300756BA0 /* YUTextFieldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YUTextFieldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6788F8451AEFC2F300756BA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6788F8461AEFC2F300756BA0 /* YUTextFieldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YUTextFieldTests.m; sourceTree = "<group>"; };
+		6788F8541AEFC32D00756BA0 /* YUTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUTextField.h; sourceTree = "<group>"; };
+		6788F8551AEFC32D00756BA0 /* YUTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUTextField.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 		6788F8291AEFC2F300756BA0 /* YUTextField */ = {
 			isa = PBXGroup;
 			children = (
+				6788F8531AEFC32D00756BA0 /* YUTextField */,
 				6788F82E1AEFC2F300756BA0 /* AppDelegate.h */,
 				6788F82F1AEFC2F300756BA0 /* AppDelegate.m */,
 				6788F8311AEFC2F300756BA0 /* ViewController.h */,
@@ -117,6 +121,15 @@
 				6788F8451AEFC2F300756BA0 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6788F8531AEFC32D00756BA0 /* YUTextField */ = {
+			isa = PBXGroup;
+			children = (
+				6788F8541AEFC32D00756BA0 /* YUTextField.h */,
+				6788F8551AEFC32D00756BA0 /* YUTextField.m */,
+			);
+			path = YUTextField;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,6 +235,7 @@
 				6788F8331AEFC2F300756BA0 /* ViewController.m in Sources */,
 				6788F8301AEFC2F300756BA0 /* AppDelegate.m in Sources */,
 				6788F82D1AEFC2F300756BA0 /* main.m in Sources */,
+				6788F8561AEFC32D00756BA0 /* YUTextField.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
